@@ -1,2 +1,2 @@
 # Power-BI
-This contains various projects on PowerBI which uses the datasets which are publicly available.
+This contains various projects on PowerBI using the datasets that are publicly available.
