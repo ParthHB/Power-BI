@@ -1,0 +1,11 @@
+"Dashboard" for E Commerce dataset. Design dashboard as per your choice using Power BI and Looker (both).
+
+Make sure to use Data Modeling concepts for this assignment. 
+
+
+#Insights
+
+There can be some relationship between customer satisfaction scores and CashbackAmount.
+
+
+There can be some relationship between Churned customers and AvgCashbackAmount.

@@ -1,0 +1,43 @@
+Operations performed on the dataset:-
+
+----- Data Cleaning ----- 
+
+- Fixing Data redundancy in “PreferedLoginDevice” Column.(PowerBI Query Editor)
+
+preferredlogindevice = 'phone'
+WHERE preferredlogindevice = 'mobile'
+
+- Fixing Data redundancy in “PreferedOrderCat” Column.(PowerBI Query Editor)
+
+preferedordercat = 'Mobile Phone' 
+WHERE preferedordercat = 'mobile'
+
+- Fixing Data redundancy in “PreferredPaymentMode” Column.(PowerBI Query Editor)
+
+PreferredPaymentMode = 'Cash on Delivery'
+WHERE PreferredPaymentMode = 'COD'
+
+- Creating a new column from an already existing “churn” column.(PowerBI Measure)
+
+WHEN Churn = 1 THEN 'Churned' 
+WHEN Churn = 0 THEN 'Not_Churned' 
+
+- Creating a new column from an already existing “complain” column.(PowerBI Measure)
+
+WHEN complain = 1 THEN 'Yes'
+WHEN complain = 0 THEN 'No'
+
+- Fixing Outliers in “WarehouseToHome” column.(PowerBI Query Editor)
+
+warehousetohome = '27'
+WHERE warehousetohome = '127'
+
+warehousetohome = '26'
+WHERE warehousetohome = '126'
+
+- Creating a new column from an already existing “warehousetohome” column.(PowerBI DAX)
+
+Customers[warehousetohome] <= 10, "Very Near",
+> 10, <= 20), "Close",
+> 20, <= 30), "Moderate",
+> 30, "Far"
