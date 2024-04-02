@@ -45,7 +45,7 @@ If you have any questions or specific requirements, please feel free to provide 
  
 ## Contributors 👥
 
-- [Parth Bhavnani] - [Parthhbhavnani@gmail.com] - [dataenthusiast007]
+- [Parth Bhavnani] - [Parthhbhavnani@gmail.com] - [Parthbhavnani]
 
 ## Mentor / Guided By
 
