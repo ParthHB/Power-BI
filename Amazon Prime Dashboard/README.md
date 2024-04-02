@@ -32,7 +32,7 @@ If you have any questions or feedback, please don't hesitate to reach out.
 ---
 ## Contributors 👥
 
-- [Parth Bhavnani] - [Parthhbhavnani@gmail.com] - [dataenthusiast007]
+- [Parth Bhavnani] - [Parthhbhavnani@gmail.com] - [Parthbhavnani]
 
 ## Mentor / Guided By
 
