@@ -11,16 +11,10 @@ This project involves creating Power BI project, candy dataset. The project will
 - Total consumers country wise
 - Top 5 liked candies
 - Top 5 disliked candies
-- Top 5 candies with neutral response
+- Top 5 candies with neutral response, and many more..
 
 ### Additional Features:
 - Creation of bookmarks for male responses and female responses
-
-## Dataset Overview 📋
-
-## Let's Get Started! 🚀
-
-This Power BI project will begin with understanding the dataset, performing necessary data cleansing, modeling, analysis and visualization tasks. Key insights and trends will be visualized using appropriate charts, graphs and maps. Conditional formatting, DAX measures, and calendar tables will be utilized to enhance the dashboard's functionality and user experience.
 
 Stay tuned for updates as we dive into creating insightful Power BI dashboards for each dataset!
 
